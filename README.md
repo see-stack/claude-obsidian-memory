@@ -7,7 +7,7 @@ Claude Code sessions normally start without the context from your previous work.
 ## Demo
 
 🎥 Full walkthrough:
-https://youtu.be/gf8Bg71121c
+https://youtu.be/t_sOfWli9aU
 
 ## What this includes
 
