@@ -28,7 +28,12 @@ Claude Code sessions start completely blind:
 
 ```
        ┌────────────────────────────────────────────────────────┐
-       │                 TERMINAL / CLAUDE CODE                 │
+       │                       CLAUDE CODE                      │
+       └───────────────────────────┬────────────────────────────┘
+                                   │  Reads & Writes via Symlinks
+                                   ▼
+       ┌────────────────────────────────────────────────────────┐
+       │                        TERMINAL                        │
        └───────────────────────────┬────────────────────────────┘
                                    │  Reads & Writes via Symlinks
                                    ▼
