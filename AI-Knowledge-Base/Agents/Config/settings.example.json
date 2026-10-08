@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(obsidian *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(mkdir *)"
+    ]
+  },
+  "autoMemoryDirectory": "/absolute/path/to/AI-Knowledge-Base/Agents/Config/Auto-memory"
+}
