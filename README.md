@@ -1,8 +1,9 @@
 # Claude Obsidian Memory
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![YouTube Walkthrough](https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?logo=youtube)](https://youtu.be/t_sOfWli9aU)
-[![Website](https://img.shields.io/badge/Website-seestack.dev-green)](https://www.seestack.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![YouTube Walkthrough](https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?style=for-the-badge&logo=youtube)](https://youtu.be/t_sOfWli9aU)
+[![Website](https://img.shields.io/badge/Website-seestack.dev-00f2fe?style=for-the-badge)](https://seestack.dev)
+[![Organization](https://img.shields.io/badge/Organization-@seestacks-1f2937?style=for-the-badge&logo=github)](https://github.com/seestacks)
 
 A persistent context, agent workflow, and session-recovery system for **Claude Code** using **Obsidian**.
 
@@ -76,7 +77,7 @@ Watch the complete, end-to-end setup and the 23-day memory test:
 Clone this repository or copy the `AI-Knowledge-Base/` folder directly into your Obsidian vault directory:
 
 ```bash
-git clone https://github.com/seestack-dev/claude-obsidian-memory.git
+git clone https://github.com/see-stack/claude-obsidian-memory.git
 ```
 
 Move or copy the contents into your vault root, or open `AI-Knowledge-Base` as a standalone vault in Obsidian.
@@ -177,9 +178,12 @@ AI-Knowledge-Base/
 
 ## 🌐 Community & Ecosystem
 
-* **Website**: [seestack.dev](https://www.seestack.dev) — Real AI workflows, tools, and developer setups.
-* **YouTube**: [@seestack](https://youtube.com/@seestack) — Step-by-step video tutorials and system breakdowns.
-* **GitHub Organization**: [seestack-dev](https://github.com/seestack-dev)
+* **Website**: [seestack.dev](https://seestack.dev) — Real AI workflows, tools, and developer setups.
+* **YouTube**: [@SeeStack](https://youtube.com/@SeeStack) — Step-by-step video tutorials and system breakdowns.
+* **GitHub Organization**: [@seestacks](https://github.com/seestacks)
+* **X**: [@seestackx](https://x.com/seestackx) — Rapid tooling drops and architecture notes.
+* **Bluesky**: [@seestack.bsky.social](https://bsky.app/profile/seestack.bsky.social)
+* **Instagram**: [@see.stack](https://instagram.com/see.stack) — Fast tips and agent demos.
 
 ---
 
