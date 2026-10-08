@@ -1,5 +1,6 @@
 # Claude Obsidian Memory
 
+[![Use This Template](https://img.shields.io/badge/Template-Use_This_Template-2ea44f?style=for-the-badge&logo=github)](https://github.com/see-stack/claude-obsidian-memory/generate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![YouTube Walkthrough](https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?style=for-the-badge&logo=youtube)](https://youtu.be/t_sOfWli9aU)
 [![Website](https://img.shields.io/badge/Website-seestack.dev-00f2fe?style=for-the-badge)](https://seestack.dev)
