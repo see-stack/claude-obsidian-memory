@@ -66,11 +66,22 @@ Every Claude Code session starts completely blind:
 
 ---
 
-## 🎬 Live Walkthrough & Graph Demo
+## 🎬 Live Demos: Vault Walkthrough & Graph View
 
-<p align="center">
-  <img src="assets/obsidian-vault-demo.gif" alt="Obsidian Vault Navigation and Daily Note CLI Demo" width="100%" />
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3>🌐 Interactive Knowledge Graph</h3>
+      <p><i>Real-time connections between Claude agents, skills, commands, and daily sessions.</i></p>
+      <img src="assets/obsidian-graph-view.gif" alt="Obsidian Interactive Knowledge Graph View" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <h3>📝 Vault Structure & Daily Note CLI</h3>
+      <p><i>Automated Year/Month/Day note scaffolds updated autonomously via Obsidian CLI.</i></p>
+      <img src="assets/obsidian-vault-demo.gif" alt="Obsidian Vault Navigation and Daily Note CLI Demo" width="100%" />
+    </td>
+  </tr>
+</table>
 
 Watch the complete, end-to-end setup and the 23-day memory test on YouTube:  
 ▶️ **[The Permanent Context & Memory Fix for Claude Code](https://youtu.be/t_sOfWli9aU)**
@@ -247,7 +258,8 @@ claude-obsidian-memory/
 ├── assets/
 │   ├── hero-persistent-brain.jpg     # Hero visual banner
 │   ├── architecture-diagram.png      # System architecture flow diagram
-│   └── obsidian-vault-demo.gif       # Live Obsidian vault recording
+│   ├── obsidian-vault-demo.gif       # Live Obsidian vault navigation demo
+│   └── obsidian-graph-view.gif       # Interactive knowledge graph animation
 ├── scripts/
 │   └── setup.sh                      # 1-command automated configuration script
 ├── AI-Knowledge-Base/                # Ready-to-use Obsidian Vault template
