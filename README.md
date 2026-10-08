@@ -90,6 +90,19 @@ Watch the complete, end-to-end setup and the 23-day memory test on YouTube:
 
 ---
 
+## 📦 What's Included
+
+* **Persistent Claude Code Context**: Long-term memory stored outside the chat window.
+* **Auto-Memory Redirection**: Claude Code's auto-memory routed into Obsidian where you can view, edit, and link it.
+* **Daily Journal System**: Automated `Year / Month / Day` note generation with standardized markdown templates.
+* **Custom Agent Commands**: Slash commands (e.g. `/daily-journal`, `/get-context`) ready to trigger from your CLI.
+* **Reusable Agent Skills**: Structured workflows defined in markdown recipes (`SKILL.md`).
+* **Deterministic Scripts**: Bash scripts (`daily-journal.sh`) that build note hierarchies safely without AI hallucinations.
+* **Automated Context Pruning**: One bash command (`scripts/prune-memory.sh`) to enforce <200 line budgets, prune stale caches, and archive sessions to Obsidian.
+* **Session Recovery**: Prompt protocols that let Claude reconstruct previous sessions and find unfinished tasks.
+
+---
+
 ## 🛠️ Essential Setup Requirements
 
 To enable fully autonomous, bi-directional memory between Claude Code and Obsidian, three core components must be configured:
@@ -262,7 +275,8 @@ claude-obsidian-memory/
 │   ├── obsidian-vault-demo.gif       # Live Obsidian vault navigation demo
 │   └── obsidian-graph-view.gif       # Interactive knowledge graph animation
 ├── scripts/
-│   └── setup.sh                      # 1-command automated configuration script
+│   ├── setup.sh                      # 1-command automated configuration script
+│   └── prune-memory.sh               # Context budget manager and memory pruner
 ├── AI-Knowledge-Base/                # Ready-to-use Obsidian Vault template
 │   ├── Agents/
 │   │   ├── Commands/                 # Custom Claude Code slash commands (.md)
@@ -284,6 +298,23 @@ claude-obsidian-memory/
 │   └── Agents.md                     # Vault agent root index
 └── README.md                         # Project documentation
 ```
+
+---
+
+## 🧹 Automated Context Pruning (`prune-memory.sh`)
+
+AI coding agents accumulate context bloat over weeks of usage: stale scratchpad caches, session debug traces, and overflowing instruction files consume tens of thousands of tokens per prompt.
+
+Run the automated context pruner:
+```bash
+./scripts/prune-memory.sh
+```
+
+**What it does:**
+1. **Audits Active Context**: Verifies `CLAUDE.md` is strictly capped under 200 lines of core architecture rules.
+2. **Prunes Stale Scratchpads**: Cleans expired paste caches and debug logs older than 3 days.
+3. **Offloads to Obsidian**: Moves aged session files (>7 days) into your persistent Obsidian archive (`Archive/AI-Memory/`).
+4. **Cuts Token Bills by ~80%**: Keeps agent reasoning sharp and prevents token waste.
 
 ---
 
