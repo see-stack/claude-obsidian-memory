@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="https://github.com/see-stack/claude-obsidian-memory/generate"><img src="https://img.shields.io/badge/Template-Use_This_Template-2ea44f?style=for-the-badge&logo=github" alt="Use This Template"></a>
-  <a href="https://seestack.lemonsqueezy.com"><img src="https://img.shields.io/badge/Store-Get_Pro_Kit-ffc439?style=for-the-badge&logo=lemonsqueezy" alt="Get Pro Kit on Lemon Squeezy"></a>
   <a href="https://youtu.be/t_sOfWli9aU"><img src="https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?style=for-the-badge&logo=youtube" alt="YouTube Walkthrough"></a>
   <a href="https://seestack.dev"><img src="https://img.shields.io/badge/Website-seestack.dev-00f2fe?style=for-the-badge" alt="Website"></a>
   <a href="https://github.com/see-stack"><img src="https://img.shields.io/badge/Organization-@see--stack-1f2937?style=for-the-badge&logo=github" alt="Organization"></a>
@@ -10,9 +9,6 @@
 </p>
 
 A local-first, persistent context, agent workflow, and session-recovery system for **Claude Code** powered by **Obsidian** and the native **Obsidian CLI**.
-
-> [!TIP]
-> **Want the plug-and-play setup in 30 seconds?** Grab the [Claude Obsidian Pro Starter Kit](https://seestack.lemonsqueezy.com) on Lemon Squeezy with pre-configured themes, automated 1-click installer, and expanded agent skills (`/get-context`, `/park`, `/end-session`).
 
 ---
 
