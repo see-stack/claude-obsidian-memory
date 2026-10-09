@@ -8,10 +8,6 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT"></a>
 </p>
 
-<p align="center">
-  <img src="assets/hero-persistent-brain.jpg" alt="Claude Obsidian Memory — Persistent AI Brain" width="100%" />
-</p>
-
 A local-first, persistent context, agent workflow, and session-recovery system for **Claude Code** powered by **Obsidian** and the native **Obsidian CLI**.
 
 ---
@@ -256,7 +252,6 @@ Claude will inspect your Obsidian vault, scan the latest journal entries, recons
 ```text
 claude-obsidian-memory/
 ├── assets/
-│   ├── hero-persistent-brain.jpg     # Hero visual banner
 │   ├── architecture-diagram.png      # System architecture flow diagram
 │   ├── obsidian-vault-demo.gif       # Live Obsidian vault navigation demo
 │   └── obsidian-graph-view.gif       # Interactive knowledge graph animation
