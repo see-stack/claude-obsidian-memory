@@ -9,6 +9,8 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT"></a>
 </p>
 
+> 🔴 **Step 1: [Subscribe to @SeeStack on YouTube](https://youtube.com/@seestack?sub_confirmation=1) for weekly AI agent tools, custom Claude mods, and Obsidian templates!**
+
 A local-first, persistent context, agent workflow, and session-recovery system for **Claude Code** powered by **Obsidian** and the native **Obsidian CLI**.
 
 > [!TIP]
