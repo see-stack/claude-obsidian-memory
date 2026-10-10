@@ -1,6 +1,7 @@
 # Claude Obsidian Memory
 
 <p align="center">
+  <a href="https://github.com/see-stack/claude-obsidian-memory/stargazers"><img src="https://img.shields.io/github/stars/see-stack/claude-obsidian-memory?style=for-the-badge&logo=github&color=E3B341" alt="GitHub Stars"></a>
   <a href="https://github.com/see-stack/claude-obsidian-memory/generate"><img src="https://img.shields.io/badge/Template-Use_This_Template-2ea44f?style=for-the-badge&logo=github" alt="Use This Template"></a>
   <a href="https://youtu.be/t_sOfWli9aU"><img src="https://img.shields.io/badge/YouTube-Watch%20Walkthrough-red?style=for-the-badge&logo=youtube" alt="YouTube Walkthrough"></a>
   <a href="https://seestack.dev"><img src="https://img.shields.io/badge/Website-seestack.dev-00f2fe?style=for-the-badge" alt="Website"></a>
@@ -9,6 +10,9 @@
 </p>
 
 A local-first, persistent context, agent workflow, and session-recovery system for **Claude Code** powered by **Obsidian** and the native **Obsidian CLI**.
+
+> [!TIP]
+> **If this setup saves you time and context, please consider giving it a ⭐ on GitHub!** It helps more developers discover the architecture and keeps active maintenance going.
 
 ---
 
@@ -297,8 +301,16 @@ claude-obsidian-memory/
 * **Bluesky**: [@seestack.bsky.social](https://bsky.app/profile/seestack.bsky.social)
 * **Instagram**: [@see.stack](https://instagram.com/see.stack) — Fast tips and agent demos.
 
+## ⭐ Support the Project
+If this system helped you build autonomous agent workflows, give it a star! It lets us know what tools to build next.
+
+<p align="center">
+  <a href="https://github.com/see-stack/claude-obsidian-memory"><img src="https://img.shields.io/github/stars/see-stack/claude-obsidian-memory?style=social" alt="Star on GitHub"></a>
+</p>
+
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
